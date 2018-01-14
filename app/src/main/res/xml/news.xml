@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contacts>
+	<news_1 
+		title="TITLE" 
+		img="http://batona.net/uploads/posts/2017-09/1504519334_05.jpg"
+		desc="Material is the metaphor.\n\nA material metaphor is the unifying theory of a rationalized space and a system of motion.Material is the metaphor.\n\n
+		A material metaphor is the unifying theory of a rationalized space and a system of motion.
+		Material is the metaphor.\n\nA material metaphor is the unifying theory of a rationalized space and a system of motion.Material is the metaphor.\n\n
+		A material metaphor is the unifying theory of a rationalized space and a system of motion.
+		Material is the metaphor.\n\nA material metaphor is the unifying theory of a rationalized space and a system of motion.Material is the metaphor.\n\n
+		A material metaphor is the unifying theory of a rationalized space and a system of motion.
+Material is te metaphor.\n\n
+        A material metaphor is the unifying theory of a rationalized space and a system of motion.
+Material is the metaphor.\n\n
+        A material metaphor is the unifying theory of a rationalized space and a system of motion.
+Material is the metaphor.\n\n
+        A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        />
+	<news_2 
+		title="TITLE2" 
+		img="http://batona.net/uploads/posts/2017-09/1504519334_05.jpg"
+		desc="Текст новости"/>
+		<news_3 
+		title="TITLE3" 
+		img="http://batona.net/uploads/posts/2017-09/1504519334_05.jpg"
+		desc="Текст новости"/>
+		<news_4 
+		title="TITLE4" 
+		img="http://batona.net/uploads/posts/2017-09/1504519334_05.jpg"
+		desc="Текст новости"/>
+		<news_5 
+		title="TITLE5" 
+		img="http://batona.net/uploads/posts/2017-09/1504519334_05.jpg"
+		desc="Текст новости"/>
+</contacts>

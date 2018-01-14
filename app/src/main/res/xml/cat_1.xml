@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contacts>
+	<contact 
+		id="news_1" 
+		name="Заголовок"
+		desc="Краткое описание к новости"
+        date="01.01.1825"/>
+	<contact 
+		id="news_2"
+		name="Заголовок"
+        desc="Краткое описание к новости"
+        date="01.01.1825"/>
+		<contact 
+		id="news_3"
+            name="Заголовок"
+            desc="Краткое описание к новости"
+            date="01.01.1825"/>
+		<contact 
+		id="news_4"
+            name="Заголовок"
+            desc="Краткое описание к новости"
+            date="01.01.1825"/>
+		<contact 
+		id="news_5"
+            name="Заголовок"
+            desc="Краткое описание к новости"
+            date="01.01.1825"/>
+</contacts>

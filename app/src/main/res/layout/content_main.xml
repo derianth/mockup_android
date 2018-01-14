@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="xyz.oneclickstudio.mockup.MainActivity"
+    android:background="#ffffff"
+    tools:showIn="@layout/app_bar_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+
+            <ss.com.bannerslider.views.BannerSlider
+                android:id="@+id/banner_slider"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="8dp"
+                app:defaultIndicators="circle"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="7">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cloud_2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:orientation="vertical"
+                android:background="#ffffff">
+
+                <Button
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:background="@drawable/rectangle_rounded_some"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:onClick="btn_login"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Вход"/>
+
+                <Button
+                    android:layout_margin="4dp"
+                    android:background="@drawable/rectangle_rounded_some"
+                    android:layout_gravity="center"
+                    android:onClick="btn_reg"
+                    android:textColor="#ffffff"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Регистрация"/>
+
+                <Button
+                    android:layout_margin="4dp"
+                    android:background="@drawable/rectangle_rounded_some"
+                    android:layout_gravity="center"
+                    android:onClick="btn_promo"
+                    android:textColor="#ffffff"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Промокоды"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
