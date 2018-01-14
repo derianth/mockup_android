@@ -7,28 +7,28 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
-            android:title="Hashflare" />
+            android:title="@string/site_name" />
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Настройки" />
+            android:title="@string/action_settings" />
         <item
             android:id="@+id/nav_news"
             android:icon="@drawable/ic_chrome_reader_mode_black_24dp"
-            android:title="Новости" />
+            android:title="@string/news" />
         <item
             android:id="@+id/nav_history"
             android:icon="@drawable/ic_history_black_24dp"
-            android:title="История" />
+            android:title="@string/history_str" />
 
         <item
             android:id="@+id/nav_help"
             android:icon="@drawable/ic_help_black_24dp"
-            android:title="Помощь" />
+            android:title="@string/help_str" />
         <item
             android:id="@+id/nav_get"
             android:icon="@drawable/ic_change_history_black_24dp"
-            android:title="Майнинг" />
+            android:title="@string/mining_str" />
     </group>
 
 </menu>

@@ -65,9 +65,9 @@
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:onClick="btn_login"
-                    android:layout_width="150dp"
+                    android:layout_width="160dp"
                     android:layout_height="wrap_content"
-                    android:text="Вход"/>
+                    android:text="@string/btn_login"/>
 
                 <Button
                     android:layout_margin="4dp"
@@ -75,9 +75,9 @@
                     android:layout_gravity="center"
                     android:onClick="btn_reg"
                     android:textColor="#ffffff"
-                    android:layout_width="150dp"
+                    android:layout_width="160dp"
                     android:layout_height="wrap_content"
-                    android:text="Регистрация"/>
+                    android:text="@string/btn_reg"/>
 
                 <Button
                     android:layout_margin="4dp"
@@ -85,9 +85,9 @@
                     android:layout_gravity="center"
                     android:onClick="btn_promo"
                     android:textColor="#ffffff"
-                    android:layout_width="150dp"
+                    android:layout_width="160dp"
                     android:layout_height="wrap_content"
-                    android:text="Промокоды"/>
+                    android:text="@string/btn_promo"/>
 
             </LinearLayout>
 

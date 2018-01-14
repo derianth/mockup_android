@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Mockup</string>
+
+    <string name="navigation_drawer_open">Открыть боковое меню</string>
+    <string name="navigation_drawer_close">Закрыть боковое меню</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="web_link_login">http://vk.com</string>
+    <string name="web_link_reg">http://vk.com</string>
+    <string name="web_link_promo">http://vk.com</string>
+    <string name="web_link_settings">http://vk.com</string>
+    <string name="web_link_history">http://vk.com</string>
+    <string name="web_link_help">http://vk.com</string>
+    <string name="title_activity_list">Новости</string>
+    <string name="title_activity_item">Новость</string>
+    <string name="btn_login">Вход</string>
+    <string name="btn_reg">Регистрация</string>
+    <string name="btn_promo">Промокоды</string>
+    <string name="site_name">Hashflare</string>
+    <string name="news">Новости</string>
+    <string name="history_str">История</string>
+    <string name="help_str">Помощь</string>
+    <string name="mining_str">Майнинг</string>
+</resources>
